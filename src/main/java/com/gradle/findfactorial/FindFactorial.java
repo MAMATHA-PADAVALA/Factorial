@@ -13,9 +13,7 @@ public class FindFactorial {
         int factorial=1;
         if(number<0)
             factorial=-1;
-        if(number==0)
-            factorial=1;
-        if(number==1)
+        if(number==0 || number==1)
             factorial=1;
         for(int range_number=2;range_number<=number;range_number++){
             factorial*=range_number;
